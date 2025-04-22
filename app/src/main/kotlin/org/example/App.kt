@@ -5,13 +5,26 @@ package org.example
 
 fun main() {
     println ("¡Hola Kotlin!")
-    
+
     val nombre = "Iván"
     val apellido = "Roth"
     val fecha = "22/04"
 
     println("Mi nombre es $nombre $apellido")
     println("Hoy es $fecha")
+
+    val Nomb: String = "Ivan"
+    val edad: Int = 16
+    val altura: Double = 1.80
+    val esEstudiante: Boolean = true
+    
+    println("Nombre: $Nomb")
+    println("Edad: $edad")
+    println("Altura: $altura")
+    println("Es estudiante: $esEstudiante")
+
+    val alt: Double = 7.7
+    val base: Double = 7.7
+    val area: Double = base*alt
+    println("El área del rectángulo es: $area")
 }
-
-
