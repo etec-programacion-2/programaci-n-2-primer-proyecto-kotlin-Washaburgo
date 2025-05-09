@@ -26,5 +26,20 @@ fun main() {
     val alt: Double = 7.7
     val base: Double = 7.7
     val area: Double = base*alt
+
     println("El área del rectángulo es: $area")
+    val numero = 17
+
+    println(esParOImpar(numero))
+
+    val num = 4
+    if (num > 0) {
+        println("Es Positivo")
+    } else {
+        if (num < 0) {
+            println("Es Negativo")
+        } else {
+            println("Es 0")
+        }
+    }
 }
